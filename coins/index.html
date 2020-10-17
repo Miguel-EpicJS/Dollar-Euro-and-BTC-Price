@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Coins Prices</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Seja bem vindo!</h1>
+        <h2>Clique nos botões para escolher a moeda desejada.</h2>
+        <section class="buttons">
+            <div class="buttons">
+                <button id="dolar" class="button1" href="#" value="USD-BRL" >Dólar Comercial</button>
+                <button id="euro" class="button2" href="#" value="EUR-BRL" >Euro</button>
+                <button id="btc" class="button1" href="#" value="BTC-BRL" >Bitcoin</button>
+            </div>
+        </section>
+        <p>Valor em reais: R$<span id="showValue"></span></p>
+        <p>Valor máximo: R$<span id="showHigh"></span></p>
+        <p>Valor minimo: R$<span id="showLow"></span></p>    
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
